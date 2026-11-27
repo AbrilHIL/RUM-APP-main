@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4557DDF2FBB76DF00F7311D /* RUMWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B4557DD52FBB76DF00F7311D /* RUMWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B4557DE52FBB776800F7311D /* ConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4557DE42FBB776800F7311D /* ConnectivityManager.swift */; };
+		B47F6B742FC51C5400717A39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F6B702FC51C5400717A39 /* ContentView.swift */; };
+		B47F6B752FC51C5400717A39 /* RUMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F6B722FC51C5400717A39 /* RUMApp.swift */; };
+		B47F6B872FC8C30C00717A39 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F6B862FC8C30500717A39 /* HomeView.swift */; };
+		B47F6B892FC8C63700717A39 /* ActiveTrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F6B882FC8C62500717A39 /* ActiveTrainingView.swift */; };
+		B47F6B8B2FCF665300717A39 /* ZoneSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F6B8A2FCF665000717A39 /* ZoneSelectionView.swift */; };
+		B47F6B8D2FD7526E00717A39 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F6B8C2FD7521300717A39 /* ProfileView.swift */; };
+		B4ACD8782FBCDD4600F3D368 /* ConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4557DE42FBB776800F7311D /* ConnectivityManager.swift */; };
+		B4E460962FF6E41C00E3EF08 /* SessionSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E460952FF6E41900E3EF08 /* SessionSummaryView.swift */; };
+		B4E4609C2FF9835D00E3EF08 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E4609B2FF9835A00E3EF08 /* HistoryView.swift */; };
+		B4E4609E2FFC2AEB00E3EF08 /* MusicLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E4609D2FFC2AE800E3EF08 /* MusicLibraryView.swift */; };
+		B4E460A02FFC2C5E00E3EF08 /* PlaylistDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E4609F2FFC2C5C00E3EF08 /* PlaylistDetailView.swift */; };
+		B4E460A33000141D00E3EF08 /* AppOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E460A23000141900E3EF08 /* AppOnboardingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4557DDD2FBB76DF00F7311D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4557DBB2FBB75F400F7311D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4557DD42FBB76DF00F7311D;
+			remoteInfo = "RUMWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B4557DE32FBB76DF00F7311D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B4557DDF2FBB76DF00F7311D /* RUMWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B4557DC32FBB75F400F7311D /* RUM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RUM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4557DD52FBB76DF00F7311D /* RUMWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RUMWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4557DE42FBB776800F7311D /* ConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityManager.swift; sourceTree = "<group>"; };
+		B47F6B702FC51C5400717A39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B47F6B722FC51C5400717A39 /* RUMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RUMApp.swift; sourceTree = "<group>"; };
+		B47F6B862FC8C30500717A39 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B47F6B882FC8C62500717A39 /* ActiveTrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveTrainingView.swift; sourceTree = "<group>"; };
+		B47F6B8A2FCF665000717A39 /* ZoneSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneSelectionView.swift; sourceTree = "<group>"; };
+		B47F6B8C2FD7521300717A39 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B4E460952FF6E41900E3EF08 /* SessionSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionSummaryView.swift; sourceTree = "<group>"; };
+		B4E4609B2FF9835A00E3EF08 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		B4E4609D2FFC2AE800E3EF08 /* MusicLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicLibraryView.swift; sourceTree = "<group>"; };
+		B4E4609F2FFC2C5C00E3EF08 /* PlaylistDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistDetailView.swift; sourceTree = "<group>"; };
+		B4E460A23000141900E3EF08 /* AppOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppOnboardingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B4E460982FF6FBA600E3EF08 /* Exceptions for "RUM" folder in "RUM" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B4557DC22FBB75F400F7311D /* RUM */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B4557DC52FBB75F400F7311D /* RUM */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B4E460982FF6FBA600E3EF08 /* Exceptions for "RUM" folder in "RUM" target */,
+			);
+			path = RUM;
+			sourceTree = "<group>";
+		};
+		B4557DD62FBB76DF00F7311D /* RUMWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "RUMWatch Watch App";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4557DC02FBB75F400F7311D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4557DD22FBB76DF00F7311D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4557DBA2FBB75F400F7311D = {
+			isa = PBXGroup;
+			children = (
+				B47F6B852FC8C15900717A39 /* Managers */,
+				B47F6B842FC8C15400717A39 /* App */,
+				B47F6B832FC8C14800717A39 /* ViewModels */,
+				B47F6B822FC8C14100717A39 /* Models */,
+				B47F6B812FC8C0E700717A39 /* Views */,
+				B4557DC52FBB75F400F7311D /* RUM */,
+				B4557DD62FBB76DF00F7311D /* RUMWatch Watch App */,
+				B4557DC42FBB75F400F7311D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4557DC42FBB75F400F7311D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4557DC32FBB75F400F7311D /* RUM.app */,
+				B4557DD52FBB76DF00F7311D /* RUMWatch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B47F6B812FC8C0E700717A39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4E460A23000141900E3EF08 /* AppOnboardingView.swift */,
+				B4E4609F2FFC2C5C00E3EF08 /* PlaylistDetailView.swift */,
+				B4E4609D2FFC2AE800E3EF08 /* MusicLibraryView.swift */,
+				B4E4609B2FF9835A00E3EF08 /* HistoryView.swift */,
+				B4E460952FF6E41900E3EF08 /* SessionSummaryView.swift */,
+				B47F6B8C2FD7521300717A39 /* ProfileView.swift */,
+				B47F6B8A2FCF665000717A39 /* ZoneSelectionView.swift */,
+				B47F6B882FC8C62500717A39 /* ActiveTrainingView.swift */,
+				B47F6B862FC8C30500717A39 /* HomeView.swift */,
+				B47F6B702FC51C5400717A39 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B47F6B822FC8C14100717A39 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B47F6B832FC8C14800717A39 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B47F6B842FC8C15400717A39 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B47F6B722FC51C5400717A39 /* RUMApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B47F6B852FC8C15900717A39 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B4557DE42FBB776800F7311D /* ConnectivityManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4557DC22FBB75F400F7311D /* RUM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4557DCE2FBB75F500F7311D /* Build configuration list for PBXNativeTarget "RUM" */;
+			buildPhases = (
+				B4557DBF2FBB75F400F7311D /* Sources */,
+				B4557DC02FBB75F400F7311D /* Frameworks */,
+				B4557DC12FBB75F400F7311D /* Resources */,
+				B4557DE32FBB76DF00F7311D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4557DDE2FBB76DF00F7311D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B4557DC52FBB75F400F7311D /* RUM */,
+			);
+			name = RUM;
+			packageProductDependencies = (
+			);
+			productName = RUM;
+			productReference = B4557DC32FBB75F400F7311D /* RUM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4557DD42FBB76DF00F7311D /* RUMWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4557DE02FBB76DF00F7311D /* Build configuration list for PBXNativeTarget "RUMWatch Watch App" */;
+			buildPhases = (
+				B4557DD12FBB76DF00F7311D /* Sources */,
+				B4557DD22FBB76DF00F7311D /* Frameworks */,
+				B4557DD32FBB76DF00F7311D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B4557DD62FBB76DF00F7311D /* RUMWatch Watch App */,
+			);
+			name = "RUMWatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "RUMWatch Watch App";
+			productReference = B4557DD52FBB76DF00F7311D /* RUMWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4557DBB2FBB75F400F7311D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					B4557DC22FBB75F400F7311D = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					B4557DD42FBB76DF00F7311D = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = B4557DBE2FBB75F400F7311D /* Build configuration list for PBXProject "RUM APP" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4557DBA2FBB75F400F7311D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B4557DC42FBB75F400F7311D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4557DC22FBB75F400F7311D /* RUM */,
+				B4557DD42FBB76DF00F7311D /* RUMWatch Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4557DC12FBB75F400F7311D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4557DD32FBB76DF00F7311D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4557DBF2FBB75F400F7311D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47F6B892FC8C63700717A39 /* ActiveTrainingView.swift in Sources */,
+				B4E460962FF6E41C00E3EF08 /* SessionSummaryView.swift in Sources */,
+				B47F6B742FC51C5400717A39 /* ContentView.swift in Sources */,
+				B4E4609E2FFC2AEB00E3EF08 /* MusicLibraryView.swift in Sources */,
+				B4E460A02FFC2C5E00E3EF08 /* PlaylistDetailView.swift in Sources */,
+				B47F6B752FC51C5400717A39 /* RUMApp.swift in Sources */,
+				B47F6B872FC8C30C00717A39 /* HomeView.swift in Sources */,
+				B4557DE52FBB776800F7311D /* ConnectivityManager.swift in Sources */,
+				B47F6B8D2FD7526E00717A39 /* ProfileView.swift in Sources */,
+				B4E460A33000141D00E3EF08 /* AppOnboardingView.swift in Sources */,
+				B4E4609C2FF9835D00E3EF08 /* HistoryView.swift in Sources */,
+				B47F6B8B2FCF665300717A39 /* ZoneSelectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4557DD12FBB76DF00F7311D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4ACD8782FBCDD4600F3D368 /* ConnectivityManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4557DDE2FBB76DF00F7311D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4557DD42FBB76DF00F7311D /* RUMWatch Watch App */;
+			targetProxy = B4557DDD2FBB76DF00F7311D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B4557DCC2FBB75F500F7311D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4557DCD2FBB75F500F7311D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4557DCF2FBB75F500F7311D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RUM/RUM.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3PYK9T9SYR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RUM/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "RUM necesita leer tu ritmo cardíaco para modular la velocidad de la música en tiempo real.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "RUM guardará el historial de tus pulsaciones para el resumen.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unibe.RUM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4557DD02FBB75F500F7311D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RUM/RUM.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3PYK9T9SYR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RUM/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "RUM necesita leer tu ritmo cardíaco para modular la velocidad de la música en tiempo real.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "RUM guardará el historial de tus pulsaciones para el resumen.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unibe.RUM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4557DE12FBB76DF00F7311D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "RUMWatch Watch App/RUMWatch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3PYK9T9SYR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RUMWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = RUMWatch;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Este sistema requiere acceso a tus pulsaciones para sincronizar el tempo rítmico de la música en tu tesis RUM.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "RUM necesita permiso para guardar tus sesiones de entrenamiento en tu historial.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.unibe.RUM;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unibe.RUM.watchapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		B4557DE22FBB76DF00F7311D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "RUMWatch Watch App/RUMWatch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3PYK9T9SYR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RUMWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = RUMWatch;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Este sistema requiere acceso a tus pulsaciones para sincronizar el tempo rítmico de la música en tu tesis RUM.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "RUM necesita permiso para guardar tus sesiones de entrenamiento en tu historial.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.unibe.RUM;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unibe.RUM.watchapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4557DBE2FBB75F400F7311D /* Build configuration list for PBXProject "RUM APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4557DCC2FBB75F500F7311D /* Debug */,
+				B4557DCD2FBB75F500F7311D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4557DCE2FBB75F500F7311D /* Build configuration list for PBXNativeTarget "RUM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4557DCF2FBB75F500F7311D /* Debug */,
+				B4557DD02FBB75F500F7311D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4557DE02FBB76DF00F7311D /* Build configuration list for PBXNativeTarget "RUMWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4557DE12FBB76DF00F7311D /* Debug */,
+				B4557DE22FBB76DF00F7311D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4557DBB2FBB75F400F7311D /* Project object */;
+}
